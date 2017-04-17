@@ -96,3 +96,46 @@ input:-moz-placeholder {
   line-height: 45px;
   text-align: center;
 }
+
+.result
+{
+  color: magenta;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.box
+{
+  width: 75%;
+  height: 50px;
+  border: 2px solid;
+  padding: 5px;"
+}
+
+.blue
+{
+  color: blue;
+  font-size: 48px;
+  font-family: arial;
+}
+
+.red
+{
+  color:red;
+  font-size: 48px;
+  font-family: arial;
+}
+
+.yellow
+{
+  color:yellow;
+  font-size: 48px;
+  font-family: arial;
+}
+
+.green
+{
+  color:green;
+  font-size: 48px;
+  font-family: arial;
+}

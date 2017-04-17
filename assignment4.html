@@ -3,25 +3,31 @@
   <head>
     <meta charset="UTF-8">
     <title>Predictive Search</title>
-    <link rel="stylesheet" href="assignment4.css">
+    <link rel="stylesheet" href="./assignment4.css">
+    <!-- Do the javascript first so that I dont get the data more than once (hype) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="./assignment4.js"></script>
+    <script>getData()  </script>
   </head>
   <body>
     <h1 class="h1">Predictive Search</h1>
-
     <div class="flexsearch">
       <div class="flexsearch-wrapper">
-        <!-- You'll handle the form with js, so no need for method and action -->
         <form class="flexsearch-form" id="mainForm">
           <div class="flexsearch-input-wrapper">
-            <input class="flexsearch-input" type="search" placeholder="search">
+            <input id="my_input" class="flexsearch-input" type="search" placeholder="search" onkeyup="searchData()">
           </div>
           <input class="flexsearch-submit" type="submit" value="&#10140;"/>
         </form>
       </div>
     </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="assignment4.js"></script>
+    <br>
+    <br>
+    <center>
+    <span class="blue">R</span><span class="red">E</span><span class="yellow">S</span><span class="blue">U</span><span class="green">L</span><span class="red">T</span><span class="yellow">S</span>
+    <div class = "box">
+      <span class="result" id="output"></span>
+    </div>
+    <center>
   </body>
 </html>
